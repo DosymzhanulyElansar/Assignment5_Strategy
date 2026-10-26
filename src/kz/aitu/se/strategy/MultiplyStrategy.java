@@ -1,4 +1,12 @@
 package kz.aitu.se.strategy;
 
-public class MultiplyStrategy {
+/**
+ * Concrete Strategy: Multiplication
+ * Author: Anuar Yelansar (Елансар)
+ */
+public class MultiplyStrategy implements Strategy {
+    @Override
+    public double execute(double a, double b) {
+        return a * b;
+    }
 }
